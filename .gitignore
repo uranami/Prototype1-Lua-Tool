@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+build/
+.vs/
+.idb
+.log
+
+# Development leftovers
+docs/
+convert_utf8.py
+regenny/
