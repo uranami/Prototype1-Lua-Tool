@@ -1,4 +1,4 @@
-#Prototype1 Lua Tool
+# Prototype1 Lua Tool
 
 Prototype 1 Lua Executor - Full Source Code
 Made By Rico1662
