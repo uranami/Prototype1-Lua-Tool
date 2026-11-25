@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="lib\math_funcs.cpp" />
+    <ClCompile Include="lib\module.cpp" />
+    <ClCompile Include="lib\pattern.cpp" />
+    <ClCompile Include="modules.cpp" />
+    <ClCompile Include="safetyhook\safetyhook.cpp" />
+    <ClCompile Include="safetyhook\Zydis.c" />
+    <ClCompile Include="hooks.cpp" />
+    <ClCompile Include="sdk\interfaces.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Menu\Menu.cpp" />
+    <ClCompile Include="imgui\ImGuiColorTextEdit\TextDiff.cpp" />
+    <ClCompile Include="imgui\ImGuiColorTextEdit\TextEditor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="lib\address.hpp" />
+    <ClInclude Include="lib\angle.hpp" />
+    <ClInclude Include="lib\bitflags.hpp" />
+    <ClInclude Include="lib\color.hpp" />
+    <ClInclude Include="lib\cpu.hpp" />
+    <ClInclude Include="lib\fnv1a_hash.h" />
+    <ClInclude Include="lib\logger.hpp" />
+    <ClInclude Include="lib\math_funcs.hpp" />
+    <ClInclude Include="lib\matrix.hpp" />
+    <ClInclude Include="lib\memory.hpp" />
+    <ClInclude Include="lib\module.hpp" />
+    <ClInclude Include="lib\pattern.hpp" />
+    <ClInclude Include="lib\simd.hpp" />
+    <ClInclude Include="lib\vectors.hpp" />
+    <ClInclude Include="modules.hpp" />
+    <ClInclude Include="hooks.hpp" />
+    <ClInclude Include="sdk\interfaces.hpp" />
+    <ClInclude Include="sdk\prototype_engine_struct.hpp" />
+    <ClInclude Include="lib\rtti_helper.hpp" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="Menu\Menu.hpp" />
+    <ClInclude Include="sdk\lua_globals.hpp" />
+    <ClInclude Include="imgui\ImGuiColorTextEdit\dtl.h" />
+    <ClInclude Include="imgui\ImGuiColorTextEdit\TextDiff.h" />
+    <ClInclude Include="imgui\ImGuiColorTextEdit\TextEditor.h" />
+    <ClInclude Include="lib\xorstr.hpp" />
+  </ItemGroup>
+</Project>
